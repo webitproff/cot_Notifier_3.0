@@ -2,10 +2,12 @@
 notifier module for Cotonti Siena 0.9.25 up to PHP version 7.4. Allows subscription to several content areas
 
 
-Исходники по адресу
+### Исходники по адресу
 https://github.com/Cmsworks/cot-notifier
-доработанная версия
+
+### доработанная версия
 https://github.com/webitproff/cot_Notifier_3.0
+
 Notifier позволяет пользователям «следить» за страницей или темой и отправляет им электронное письмо при добавлении нового комментария или сообщения.
 
 Функции
