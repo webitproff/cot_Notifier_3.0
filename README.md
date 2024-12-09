@@ -29,16 +29,22 @@ Notifier позволяет пользователям «следить» за �
 
 в forums.posts.tpl добавить после названия темы:
 
-<code><div uk-grid>
+```
+<div uk-grid>
     <div>{NOTIFIER_TOGGLE}</div>
     <div>{NOTIFIER_SUBSCRIPTIONS} </div>
 </div>
-</code>
+```
+
 ссылка в шаблоне
-``<!-- IF {PHP.cot_modules.notifier} -->
-<li><a class="uk-link-heading" href="{PHP|cot_url('notifier')}"><span class="uk-text-middle"><i class="fa-solid fa-tower-cell fa-xl"></i></span><span class="uk-text-middle">{PHP.L.YourSubscriptions}</span></a></li>
-	<li class="uk-nav-divider"></li>
-<!-- ENDIF -->``
+```
+<!-- IF {PHP.cot_modules.notifier} -->
+<a class="uk-link-heading" href="{PHP|cot_url('notifier')}">
+	<span class="uk-text-middle"><i class="fa-solid fa-tower-cell fa-xl"></i></span>
+	<span class="uk-text-middle">{PHP.L.YourSubscriptions}</span>
+</a>
+<!-- ENDIF -->
+```
 
 Notifier allows users to 'watch' a page or topic and sends them an email when
 a new comment or post was added.
