@@ -35,7 +35,15 @@ Notifier позволяет пользователям «следить» за �
     <div>{NOTIFIER_SUBSCRIPTIONS} </div>
 </div>
 ```
-
+или так
+```
+        <!-- IF {PHP.cot_modules.notifier} -->
+        <div>
+          <a class="uk-button uk-button-default" href="{NOTIFIER_TOGGLE_URL}">{NOTIFIER_TOGGLE_TEXT}</a>
+        </div>
+        <div>{NOTIFIER_SUBSCRIPTIONS} </div>
+        <!-- ENDIF -->
+```
 ссылка в шаблоне
 ```
 <!-- IF {PHP.cot_modules.notifier} -->
