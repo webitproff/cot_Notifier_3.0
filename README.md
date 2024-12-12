@@ -89,3 +89,7 @@ a new comment or post was added.
 * Extract and upload files
 * Go to admin > extensions > notifier > install
 * Go to admin > extensions > htmlmail > install (if you want HTML email support)
+
+
+
+### [Help & Support | Помощь и поддержка](https://abuyfile.com/ru/forums/cotonti/custom/mods/topic96)
